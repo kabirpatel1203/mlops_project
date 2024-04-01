@@ -1,0 +1,29 @@
+MLflow - for the experiment tracking instead of the manually tracking the experiments results, mlflow can automate this process using two lines of code of MLFlow.
+
+
+ Generally, we do hyper parameter tuning if we get the poor results. 
+ Hyper parameter tuning is resource intensive, but you can do the experiment tracking by using the mlflow, which can be less resource intensive.
+
+ Once running the example.py, it creates a separte file that saves that particular conditions and the results (mae, rmse, mse).
+you can visulaize/compare all these results by command - "mlflow ui"
+
+
+Based on the comparisons above of the various model sparameters, we can choose the model and further, "staging" and "production".
+
+
+Project Setup:
+template.py --> structure of the code and creates fiels directly fromt he structure mentioned in template.py
+utililty --> functions which we use frequently.
+
+
+if dictionary, you have to use a['x'] to get values. In order to get values using a.x , we can use 'configBox'.
+
+ensure annotation is used to make sure that if the parameter should be integer then it makes sure that parameter would be integer.
+
+
+STEP 1) Setup and clone the github repo (include gitigonre and licence)
+STEP 2) Write logic in the template.py and run it. (it will create the structure of the project)
+STEP 3) create a virtual env in bash and then activate it.
+STEP 4) write the setup.py file
+STEP 5) write the requirements.txt file and install the requirements using pip install -r requirements.txt
+STEP 6) write the logging in init and other functionalities (Utils, Logging, AND Exceptions)
