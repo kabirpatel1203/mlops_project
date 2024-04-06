@@ -30,7 +30,8 @@ STEP 6) write the logging in init and other functionalities (Utils, Logging, AND
 STEP 7) Write all the four pipelines in research (ipynb) first and then do modular coding(various sections of ipynb file will go to different parts of the files.)
 STEP 8) Once all the four pipelines are done, one can write and run main.py in order to perform all four operations.
 STEP 9) dvc init , dvc repro
-STEP 10) 
+STEP 10) Once dvc is done, we will use this 'dvc repro' command in order to run project instead of main.py because it will avoid repeated files.
+
 
 DVC is basically a git but for Data Science and ML Projects.
 If you have already finished 2 out of 4 pipelines and then restart then it will start from 1st and download everything. 
