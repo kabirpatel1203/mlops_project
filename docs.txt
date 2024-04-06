@@ -23,7 +23,22 @@ ensure annotation is used to make sure that if the parameter should be integer t
 
 STEP 1) Setup and clone the github repo (include gitigonre and licence)
 STEP 2) Write logic in the template.py and run it. (it will create the structure of the project)
-STEP 3) create a virtual env in bash and then activate it.
+STEP 3) create a virtual env in bash (Conda) and then activate it.
 STEP 4) write the setup.py file
 STEP 5) write the requirements.txt file and install the requirements using pip install -r requirements.txt
 STEP 6) write the logging in init and other functionalities (Utils, Logging, AND Exceptions)
+STEP 7) Write all the four pipelines in research (ipynb) first and then do modular coding(various sections of ipynb file will go to different parts of the files.)
+STEP 8) Once all the four pipelines are done, one can write and run main.py in order to perform all four operations.
+STEP 9) dvc init , dvc repro
+STEP 10) 
+
+DVC is basically a git but for Data Science and ML Projects.
+If you have already finished 2 out of 4 pipelines and then restart then it will start from 1st and download everything. 
+To avoid this issue, we use DVC pipelines which helps us to track the pipelines.
+
+ways to use DVC:
+
+1) On top of your Data
+2) On top of your Pipeline (We are using this for the Current Project)
+
+In DVC.yaml file, cmd is the main file needed to run and deps are the dependencies. outs are the output.
