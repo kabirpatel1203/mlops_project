@@ -33,6 +33,8 @@ STEP 9) dvc init , dvc repro
 STEP 10) Once dvc is done, we will use this 'dvc repro' command in order to run project instead of main.py because it will avoid repeated files.
 
 
+NOTE: If you close the whole prject and want to run it again, you have to set the 3 environment variables(mentioned in README.md ), and then run the project.
+
 DVC is basically a git but for Data Science and ML Projects.
 If you have already finished 2 out of 4 pipelines and then restart then it will start from 1st and download everything. 
 To avoid this issue, we use DVC pipelines which helps us to track the pipelines.
